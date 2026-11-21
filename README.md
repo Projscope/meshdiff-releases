@@ -4,7 +4,7 @@
 
 [**Download for Windows**](https://github.com/Projscope/meshdiff-releases/releases/latest) &nbsp;·&nbsp; [meshdiff.com](https://meshdiff.com) &nbsp;·&nbsp; [Pricing](https://meshdiff.com/pricing)
 
----
+![Comparing two versions of a model: added material in green, removed in red, with the volume and size changes beside it](screenshots/05-compare.png)
 
 You changed a bracket, a gear, an enclosure. Did the wall get thinner? Did a hole shrink? Is there a new overhang that will need supports? Scrolling through two CAD exports side by side won't tell you. **Meshdiff does.**
 
@@ -22,6 +22,30 @@ Meshdiff Desktop is **free software**: no price, no trial, no account. Everythin
 - **Works with real-world files**: STL, OBJ and 3MF, including 3MF exports from slicers such as BambuStudio, PrusaSlicer and OrcaSlicer.
 - **Big models are fine**: detailed parts with hundreds of thousands of triangles are analysed in seconds on a modern computer, and Meshdiff sizes its limits to your machine so it never freezes.
 - **Updates itself**: new versions download in the background and install when you restart.
+
+## A quick tour
+
+*The screenshots use a sample gear and bracket model.*
+
+### Every project is a timeline of versions
+Add your files one after another. Each new version is analysed against the one before it and gets a plain-language summary and a printability badge, so you can see at a glance what changed and what needs attention.
+
+![A project's version history, each version with a printability badge and a summary of what changed](screenshots/02-project-versions.png)
+
+### Look at any version in 3D, with its numbers
+Orbit, zoom and measure the model, and read its volume, size, wall-thickness, overhang and hole data next to it. Printability issues, such as an overhang that will need supports, are called out in plain words.
+
+![A version in 3D with comment pins on the model and its geometric changes and printability beside it](screenshots/03-version-3d.png)
+
+### Talk about the part, on the part
+Click anywhere on the model to leave a comment pinned to that exact spot. Reply, resolve and filter them, all without leaving the viewer.
+
+![A comment thread pinned to the model, with replies and a resolved comment](screenshots/04-comments.png)
+
+### All your projects, on your computer
+Your projects live in a folder you can see, copy and back up. A project connected to a team shows its team name; everything else stays purely local.
+
+![The project list, one project connected to a team and one local](screenshots/01-projects.png)
 
 ## Your models stay yours
 
@@ -83,7 +107,7 @@ Windows 10 and 11 (64-bit). macOS and Linux are not available yet.
 
 **What happens to my data if I stop using it?** It's a folder on your computer. Delete the app, keep the folder, take it with you.
 
-**Where is the source code?** This repository only hosts installers and update information. The source isn't published here.
+**Where is the source code?** This repository only hosts installers, screenshots and update information. The source isn't published here.
 
 ---
 
